@@ -7,11 +7,12 @@
 - **Important** ensure to import both sub-folders (inventoryservice and inventoryservice-persistence) separately as modules within the created folder. i.e click on File > Project Structure > Modules > '+' > Import Module >  then select the inventoryservice-persistence folder and repeat process with inventoryservice folder.
 -  Build the inventoryservice-persistence **first** by clicking View > Tool window > Maven Project > Lifecycle > package 
 - After the Build is complete, the application layer(inventoryservice) can then be run via the InventoryserviceApplication file.
-- **Importnant** This would only run on Java 8, ensure that the compiler for the build as well as the target build are set to Javs 8.
+- **Important** This would only run on Java 8, ensure that the compiler for the build as well as the target build are set to Javs 8.
 
 
 ## Development Summary
--  The backend architecture was divided into a persistence layer and an application layer. As I used a simple datbase engine (h2), I felt it was better to abstract it that way 
+-  The backend architecture was divided into a persistence layer and an application layer. As I used a simple datbase engine (h2), I felt it was better to abstract it that way for separations of concerns between the DB logic and the application itself.
+- Mybattis framework was used for th SQL interaction
 
-
-![AGif.gif]()
+A sample gif of the application
+![](AGif.gif)
