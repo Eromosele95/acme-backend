@@ -58,11 +58,11 @@ public class InventoryController {
 
              for(Map.Entry<String,?> entry: body.entrySet()){
                  if (!entry.getKey().equals("total_amount")&&!entry.getKey().equals("email")){
-                     stringBuilder.append(entry.getKey() + " " + entry.getValue());
+                     stringBuilder.append(" "+entry.getKey() + " " + entry.getValue() + "\n");
                  }
 
                  if (entry.getKey().equals("total_amount")){
-                     stringBuilder.append("And your total amount is: " +  "$"+entry.getValue());
+                     stringBuilder.append(" And your total amount is: " +  "$"+entry.getValue());
                  }
 
              }
