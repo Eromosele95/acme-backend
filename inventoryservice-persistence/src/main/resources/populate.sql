@@ -4,7 +4,7 @@ FILE_READ('/Users/Kareem/PostGrad/JOBS/inventoryservice-persistence/src/main/res
 INSERT INTO ITEMS (title, price, image, quantity, description) VALUES ('A Golden throne', 35.00,
 FILE_READ('/Users/Kareem/PostGrad/JOBS/inventoryservice-persistence/src/main/resources/acme_images/throne1.jpg'), 4,
 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.');
-INSERT INTO ITEMS (title, price, image, quantity, description) VALUES ('Beyonces Toothbrush', 40.00,
+INSERT INTO ITEMS (title, price, image, quantity, description) VALUES ('Beyonces ToothBrush', 40.00,
 FILE_READ('/Users/Kareem/PostGrad/JOBS/inventoryservice-persistence/src/main/resources/acme_images/toothbrush.jpeg'), 5, 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.');
-INSERT INTO ITEMS (title, price, image, quantity, description) VALUES ('The Only Unicorn', 20000.0,
+INSERT INTO ITEMS (title, price, image, quantity, description) VALUES ('The Only Unicorn', 20000.00,
 FILE_READ('/Users/Kareem/PostGrad/JOBS/inventoryservice-persistence/src/main/resources/acme_images/unicorn.png'), 1, 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.');
